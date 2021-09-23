@@ -20,7 +20,7 @@ class SinalcoTest {
   }
 
   @Test
-  void aBartenderShouldAcceptAnOrderForBoxer() {
+  void aBartenderShouldAcceptAnOrderForSinalco() {
     Bartender jane = new Bartender();
     String productName = "ch.heigvd.res.chill.domain.vogelma.Sinalco";
     OrderRequest request = new OrderRequest(2, productName);
